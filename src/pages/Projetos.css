@@ -367,7 +367,12 @@ top: 35px;
     position: absolute;
     top: 20px;
 }
-
+#imcrud{
+    position: absolute;
+    width: 700px;
+    top: 400px;
+   
+}
 
 #informaçoesCalculadora{
     position: relative;

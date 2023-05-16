@@ -18,7 +18,7 @@ import imgportifolio1 from '../componentes/imgs/portifolio1.png'
 import imgportifolio2 from '../componentes/imgs/portifolio2.png'
 import imginicio from '../componentes/imgs/inicio.png'
 import imgpainel from '../componentes/imgs/painel.png'
-import videoCrud from '../componentes/imgs/Crud.mp4'
+import imgCrud from '../componentes/imgs/crud.png'
 
 
 
@@ -427,7 +427,7 @@ Passe o mouse em cima da imagem para ampliar.
 </div>
 
 <div id="conteudoProjetoGetPet">
-<div id="nomeProjetoGetPet">Projeto Get Pet</div>
+<div id="nomeProjetoGetPet">Projeto Crud .NET CORE MVC</div>
 <div id="informaçoesProjetoGetPet">
   Esse Projeto foi pensado em praticar o back-end com a Linguagem Scharp 
   com frammework .Net Core e padrão de arquitetura  MVC ,pensando como os 
@@ -435,19 +435,18 @@ Passe o mouse em cima da imagem para ampliar.
   no qual os dados são servidos na pagina do usuario .
 
 <b> </b>Clique no Iconi do GitHub para mais informações do código . 
-Passe o mouse em cima da imagem para ampliar.
+
 
      <div id="iconsGetPet">
       <img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
     <img src={iconReact} width="50" />
-    <a href="https://github.com/eliseu-modan/GetPet_Node.JS"><img src={iconGit} width="50" /></a>
+    <a href="https://github.com/eliseu-modan/ProjetoCrud.NetCoreMVC"><img src={iconGit} width="50" /></a>
 </div>
-<video className="videoCrud" width="650" height="400" controls >
-      <source src={videoCrud} type="video/mp4"/>
-</video>
-  
+<div className="imgcrud">
+  <img id="imcrud"src={imgCrud}  />
+</div>
 </div>
 
 
