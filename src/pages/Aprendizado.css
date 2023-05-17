@@ -137,6 +137,7 @@
             position: absolute;
             left: 10px;
             top: 10px;
+
         }
         
         @media (max-width:1400px){
@@ -186,10 +187,10 @@
             #aprendizado{
                 position: absolute;
                 left: -100px;
-                width: 100px;
+                width: 50px;
             }
             #conteudo{
-                width: 400px;
+                width: 350px;
                 left: 10px;
             }
             #iconGulp{
@@ -200,6 +201,14 @@
            top: 175px;
            left: 300px;
             }
+           #iconReact,#iconHtml,#iconCss,#iconJs,#iconGulp,#iconBootstrap,#iconJquery,#iconWebPack,#iconNpm,#iconNode
+           ,#iconJava,#iconMysql{
+            width: 50px;
+           }
+           #iconUml{
+            width: 100px;
+            left: 20px;
+           }
         }
 
       

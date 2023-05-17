@@ -19,7 +19,7 @@
     background-color:rgb(182 , 0 ,0);    
 }
 
-#area__FrontEnd{
+    #area__FrontEnd{
     position: absolute;
     left: 20px;
     font-size: larger;
@@ -30,7 +30,7 @@
     padding-top: 20px;
     opacity: 80%;
     border-radius: 30px;
-    border: solid 4px rgb(0, 0, 0);
+    border: solid 4px rgb(168, 28, 28);
     background-color: #ffffff;
     color: black;
 }
@@ -57,7 +57,7 @@
      /* padding-right: 580px;  */
     padding-bottom:5000px ;
 background-color:#ffffff;
-
+display: none;
 /* border-radius: 35px; */
 
 
@@ -539,7 +539,59 @@ width: 500px;
 
 @media(max-width:800px){
 
+     #area__FrontEnd{
+     width: 250px;
+     top: -80px;
+     
+    }
+    #projetos{
+        position: absolute;
+        top: 80px;
+       left:-110px;
+       width:190px;
+     
+    }
+    #setaBaixo
+    {
+        position: absolute;
+        left: 330px;
+        top: -10px;
+    } 
+   #conteudoCadastro,#conteudoCalculadora,#conteudoPortifolio,#conteudoProjetoSistemaERP,#conteudoProjetoGetPet{
+    width: 400px;
+   }
+   #conteudoProjetoGetPet{
+    left: -5px;
+   }
+   #nomeProjetoGetPet{
+    left:40px;
+   }
+   #informaçoesCadastro,#informaçoesCalculadora,#informaçoesPortifolio,#informaçoesProjetoSistema,#informaçoesProjetoGetPet{
+    width: 350px;
+   }
+   #imgcadastro,#imgusuario,#imglogin,#imgCalculadora,#imgPortifolio1,#imgPortifolio2,#imgInicio,#imgPainel,#imcrud{
+    width: 300px;
+    position: absolute;
 
+   }
+   #iconsCadastro,#iconsGetPet{
+    position: absolute;
+    top: 300px;
+   }
+   #iconsPortifolio{
+   position: absolute;
+   top: 600px;
+   }
+  #btndireita,#btndireitaPortifolio,#btndireitaSistema{
+    left: 20pc;
+  }
+  #btnesquerdaSistema{
+    left: 50px;
+  }
+
+
+
+      
 
 }
 

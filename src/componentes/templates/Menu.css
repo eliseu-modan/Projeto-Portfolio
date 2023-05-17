@@ -128,10 +128,15 @@
               z-index: 9;
        
             }
+          
            }
            @media (max-width:800px){
             #navegaçao{
               position: absolute;
               left: 110px;
             }
+            #navegaçao__btnInicio{
+              display: none;
+            }
+           
            }

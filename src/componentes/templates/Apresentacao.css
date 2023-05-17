@@ -113,8 +113,7 @@ left:450px;
     }
     @media (max-width:800px){
         .apresentação{
-            position: relative;
-            left: 300px;
+           display: none;
         }
     }
 

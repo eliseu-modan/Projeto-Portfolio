@@ -4,6 +4,7 @@ import Cabecalho from '../componentes/templates/Header'
 import InformacoesCabeçalhos from '../componentes/templates/InformacoesCabeçalhos'
 import Apresentacao from '../componentes/templates/Apresentacao'
 import Menu from '../componentes/templates/Menu'
+import Projetos from '../pages/Projetos'
 
 export default props =>
 
@@ -13,4 +14,5 @@ export default props =>
     <InformacoesCabeçalhos />
     <Apresentacao />
      <Menu />
+    
 </div>

@@ -103,6 +103,8 @@ background-color: #ffffff;
     #contato{
         position: absolute;
         left: -50px;
+
+
     }
 }
 
@@ -117,5 +119,29 @@ background-color: #ffffff;
     #contato{
         position: absolute;
         left: -40px;
+        width:150px;
+        
     }
+    #formulario{
+        width: 450px;
+    }
+     #digitarNome,#placeNome,#digitarEmail,#placeEmail{
+        width: 150px;
+        font-size: 20px;
+        padding: 2px;
+     }
+     #mensagem{
+        left: 38px;
+     }
+     #areaTexto{
+        left:10px;
+     }
+     .form-group{
+        width: 200px;
+     }
+     .submitFormulario{
+        position: absolute;
+        left: 220px;
+     }
+
 }

@@ -97,7 +97,23 @@ background-color: black;
 }
 @media (max-width:800px){
     .DescricaoCabeçalho{
-        left: 10px;
+        left: 5px;
     }
+   #icon_linkedin{
+    position: absolute;
+    left:95px;
+   }
+   #icon_facebook{
+    position: absolute;
+    left:250px;
+   }
+   #Git_icon{
+    position: absolute;
+    left: 170px;
+   }
+   #nomeSoftware,#nomeWeb,#nomeJava{
+    position: absolute;
+    left: 120px;
+   }
     
 }
