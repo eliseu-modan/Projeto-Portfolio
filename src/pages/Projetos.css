@@ -542,6 +542,7 @@ width: 500px;
      #area__FrontEnd{
      width: 250px;
      top: -80px;
+
      
     }
     #projetos{
@@ -549,6 +550,7 @@ width: 500px;
         top: 80px;
        left:-110px;
        width:190px;
+       overflow: visible;
      
     }
     #setaBaixo
@@ -589,7 +591,9 @@ width: 500px;
     left: 50px;
   }
 
-
+  .conteudoFrontEnd{
+    width: 100px;
+  }
 
       
 

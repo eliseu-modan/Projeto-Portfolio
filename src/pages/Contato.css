@@ -120,8 +120,9 @@ background-color: #ffffff;
         position: absolute;
         left: -40px;
         width:150px;
-        
+        padding-right: 0px;
     }
+   
     #formulario{
         width: 450px;
     }
