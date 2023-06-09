@@ -502,7 +502,7 @@ na área de implementação de software.</div>
              <div id='conteudo'> Passe o mouse no Icone para mais Informações da Tecnologia</div>
  <b>
 
-
+<div id="conteudoTeorico">
       <h2>
       <div id="nomeIntegracao">Integração Contínua e Boas Praticas de Desenvolvimento</div>
       </h2>
@@ -510,7 +510,7 @@ na área de implementação de software.</div>
 
                   
           <div id="ScrumNome"><h2>  Frammework Scrum  </h2> 
-           <img src={imgScrum}  />
+           <img id="sizeScrumimg"src={imgScrum}  />
             <h3 id="descriçaoScrum">
                O frammework Scrum eu tive um aprendizado na Faculdade, A scrum 
                traz agilidade no desenvolvimento de um projeto, trazendo boas 
@@ -583,7 +583,7 @@ na área de implementação de software.</div>
 
 
 
-
+</div>
          
      
       </b>
