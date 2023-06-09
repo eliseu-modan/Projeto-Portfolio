@@ -170,126 +170,126 @@ function prop(){
 
 
 
-      function ampliarImgs(){
+//       function ampliarImgs(){
 
-    imginicio.addEventListener('mouseover',function(){
-          imgSistemaInicio.style.left='-100px'
-          var fator_lupa = 60;
-          this.style.width = (this.clientWidth + fator_lupa) + "px";
+//     imginicio.addEventListener('mouseover',function(){
+//           imgSistemaInicio.style.left='-100px'
+//           var fator_lupa = 60;
+//           this.style.width = (this.clientWidth + fator_lupa) + "px";
 
-              imginicio.addEventListener('mouseout',function(){
-                imgSistemaInicio.style.left='12px'
-                this.style.width='700px'
-              })
-    })
+//               imginicio.addEventListener('mouseout',function(){
+//                 imgSistemaInicio.style.left='12px'
+//                 this.style.width='700px'
+//               })
+//     })
 
-    imgpainelampliar.addEventListener('mouseover',function(){
-      imgpainel.style.left='-100px'
-      var fator_lupa = 60;
-      this.style.width = (this.clientWidth + fator_lupa) + "px";
+//     imgpainelampliar.addEventListener('mouseover',function(){
+//       imgpainel.style.left='-100px'
+//       var fator_lupa = 60;
+//       this.style.width = (this.clientWidth + fator_lupa) + "px";
 
-          imgpainelampliar.addEventListener('mouseout',function(){
-            imgpainel.style.left='12px'
-            this.style.width='700px'
-          })
-})
-
-
+//           imgpainelampliar.addEventListener('mouseout',function(){
+//             imgpainel.style.left='12px'
+//             this.style.width='700px'
+//           })
+// })
 
 
 
 
 
 
-    imgcadastro.addEventListener('mouseover',function(){
+
+
+//     imgcadastro.addEventListener('mouseover',function(){
        
        
-       cadastroimg.style.left='-120px'
-         var fator_lupa = 60;
-           this.style.width = (this.clientWidth + fator_lupa) + "px";
+//        cadastroimg.style.left='-120px'
+//          var fator_lupa = 60;
+//            this.style.width = (this.clientWidth + fator_lupa) + "px";
        
-             imgcadastro.addEventListener('mouseout',function(){
-               cadastroimg.style.left='12px'
-                 this.style.width = '700px'
- })
-})
-imgusuario.addEventListener('mouseover',function(){
+//              imgcadastro.addEventListener('mouseout',function(){
+//                cadastroimg.style.left='12px'
+//                  this.style.width = '700px'
+//  })
+// })
+// imgusuario.addEventListener('mouseover',function(){
 
-   usuariosimg.style.left='-120px'
-     var fator_lupa = 60;
-       imgusuario.style.width = (this.clientWidth + fator_lupa) + "px";
+//    usuariosimg.style.left='-120px'
+//      var fator_lupa = 60;
+//        imgusuario.style.width = (this.clientWidth + fator_lupa) + "px";
      
-     imgusuario.addEventListener('mouseout',function(){
-       usuariosimg.style.left='12px'
-         imgusuario.style.width = '700px'
-})
+//      imgusuario.addEventListener('mouseout',function(){
+//        usuariosimg.style.left='12px'
+//          imgusuario.style.width = '700px'
+// })
 
-})
-imglogin.addEventListener('mouseover',function(){
+// })
+// imglogin.addEventListener('mouseover',function(){
 
-   loginimg.style.left='-120px'
-     var fator_lupa = 60;
-       imglogin.style.width = (this.clientWidth + fator_lupa) + "px";
+//    loginimg.style.left='-120px'
+//      var fator_lupa = 60;
+//        imglogin.style.width = (this.clientWidth + fator_lupa) + "px";
      
-     imglogin.addEventListener('mouseout',function(){
-       loginimg.style.left='12px'
-         imglogin.style.width = '700px'
-})
+//      imglogin.addEventListener('mouseout',function(){
+//        loginimg.style.left='12px'
+//          imglogin.style.width = '700px'
+// })
 
-})
-
-
-              const imgCalculadoraZoom = document.querySelector('#imgCalculadora')
-              const calculadoraimg =document.querySelector('#calculadoraimg')
+// })
 
 
-              imgCalculadoraZoom.addEventListener('mouseover',function(){
-               var fator_lup = 60;
-                 calculadoraimg.style.left='-130px'
-
-              imgCalculadoraZoom.style.width = (this.clientWidth + fator_lup) + "px";
-
-              imgCalculadoraZoom.addEventListener('mouseout',function(){
-                 calculadoraimg.style.left='13px'
-                    imgCalculadoraZoom.style.width = '700px'
-})
-})
+//               const imgCalculadoraZoom = document.querySelector('#imgCalculadora')
+//               const calculadoraimg =document.querySelector('#calculadoraimg')
 
 
-         imgPortifolio1.addEventListener('mouseover',function(){
-           var fator = 60;
-           imgPortifolio1.style.width = (this.clientWidth + fator) + "px";
-           idhomeimgPortifolio.style.left='-150px'
+//               imgCalculadoraZoom.addEventListener('mouseover',function(){
+//                var fator_lup = 60;
+//                  calculadoraimg.style.left='-130px'
+
+//               imgCalculadoraZoom.style.width = (this.clientWidth + fator_lup) + "px";
+
+//               imgCalculadoraZoom.addEventListener('mouseout',function(){
+//                  calculadoraimg.style.left='13px'
+//                     imgCalculadoraZoom.style.width = '700px'
+// })
+// })
+
+
+//          imgPortifolio1.addEventListener('mouseover',function(){
+//            var fator = 60;
+//            imgPortifolio1.style.width = (this.clientWidth + fator) + "px";
+//            idhomeimgPortifolio.style.left='-150px'
          
-          imgPortifolio1.addEventListener('mouseout',function(){
-            imgPortifolio1.style.width  ='700px'
-            idhomeimgPortifolio.style.left='2px'
+//           imgPortifolio1.addEventListener('mouseout',function(){
+//             imgPortifolio1.style.width  ='700px'
+//             idhomeimgPortifolio.style.left='2px'
                  
 
 
-         })
+//          })
 
-        })
-        imgPortifolio2.addEventListener('mouseover',function(){
-          idProjetosImgPortifolio.style.left='-150px'
-         var fator = 60;
-         imgPortifolio2.style.width = (this.clientWidth + fator) + "px";
+//         })
+//         imgPortifolio2.addEventListener('mouseover',function(){
+//           idProjetosImgPortifolio.style.left='-150px'
+//          var fator = 60;
+//          imgPortifolio2.style.width = (this.clientWidth + fator) + "px";
         
-         imgPortifolio2.addEventListener('mouseout',function(){
-           imgPortifolio2.style.width  ='700px'
-           idProjetosImgPortifolio.style.left='0px'
+//          imgPortifolio2.addEventListener('mouseout',function(){
+//            imgPortifolio2.style.width  ='700px'
+//            idProjetosImgPortifolio.style.left='0px'
 
 
-        })
+//         })
 
-       })
+//        })
 
 
     
-   }
+//    }
    abrirConteudoProjetos()
    buttonsimgsCadastro()
-   ampliarImgs()
+  //  ampliarImgs()
    buttonimgsPortifolio()
    buttonsImgsSistema()
 
@@ -315,13 +315,16 @@ return ( <div id="projetos" >
    <div id="conteudoCadastro">
    <div id="cadastro">Cadastro de Usuario</div>
     <div id="informaçoesCadastro">  
-    O Projeto Cadastro de Usuário foi Ponderado em  ter uma Página interativa e dinâmica 
-   com fácil acesso às informações, Esse Tipo de Projeto é muito utilizado para controlar 
-   fluxos de Usuários em Sistemas e até mesmo em Cadastro de Clientes, Esse Projeto me trouce um
-   amplo conhecimento nas tecnologias Front-End como: HTML, CSS, JAVASCRIPT, REACT que traz muita
-   facilidade com componentização de páginas ficando fácil de manutenção e Reuso dos componentes. Clique no Iconi do GitHub 
-   Para mais informações sobre o código desse projeto. Passe o Mouse em cima da imagem para ampliar.
-    <b><i><a href="https://cadastrousuario-eliseu.netlify.app/">Clique Aqui para Ver o Projeto</a></i></b>
+    O Projeto cadastro de usuário foi ponderado em  ter uma Página interativa e dinâmica 
+   com fácil acesso às informações, Esse Tipo de projeto é muito utilizado para controlar 
+   fluxos de usuários em sistemas e até mesmo em cadastro de clientes, Esse Projeto me trouce um
+   amplo conhecimento nas tecnologias Front-End como: HTML, CSS, JAVASCRIPT e REACT que traz muita
+   facilidade com componentização de páginas ficando fácil de manutenção e reuso dos componentes. Clique
+    no Iconi do GitHub para mais informações sobre o código desse projeto.
+    <p>
+      <b><i><a href="https://cadastrousuario-eliseu.netlify.app/">Clique Aqui para Ver o Projeto</a></i></b>
+      
+      </p>
    <div id="iconsCadastro"><img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
     <img src={js} width="50" />
@@ -332,10 +335,10 @@ return ( <div id="projetos" >
   <div id="cadastroimg" > <img id="imgcadastro" src={imgCadastro} width='700' /></div>
   <div id="usuariosimg"> <img id='imgusuario'src={usuariosimg} width='700' /></div>
   <div  id="loginimg"> <img id="imglogin" src={loginimg} width='700' /></div>
-  </div></div>
+  </div>
 <button id="btndireita" ><img src={setadireita} width='20'/></button>
   <button id="btnesquerda"><img src={setaesquerda} width='20' /></button>
-
+  </div>
    </div>
 
 
@@ -343,13 +346,16 @@ return ( <div id="projetos" >
    <div id="conteudoCalculadora">
    <div id="calculadora">Calculadora</div>
    <div id="informaçoesCalculadora">
-   O Projeto Calculadora Foi de Extrema importância para o 
-     Aprendizado do JavaScript e do Frammework React Biblioteca do JavaScript, 
-     Com uma Lógica complexa foi utilizado 
-     funcionalidades como classes,Arrays, Objetos e Eventos, Esse Projeto foi
-     Utilizado Tecnologias FrontEnd como Html,React, Css, JavaScript,Acesse 
-     Ao Iconi do GitHub para mais informações do código,Passe o Mouse em cima da imagem 
-     para ampliar. <b><a href="https://calculadora-reactjavascript.netlify.app/"><i> Clique Aqui para Ver Projeto </i></a> </b>
+   O Projeto Calculadora foi de extrema importância para o 
+     aprendizado do JavaScript e do Frammework React Biblioteca do JavaScript, 
+     Com uma Lógica complexa foi utilizado fundamentos da linguagem como 
+     classes,Arrays, Objetos e Eventos. Esse projeto foi
+     utilizado tecnologias FrontEnd como Html,React, Css e JavaScript, Acesse 
+     ao iconi do GitHub para mais informações do código.
+    <p>
+      <b><a href="https://calculadora-reactjavascript.netlify.app/"><i> Clique Aqui para Ver Projeto </i></a> </b>
+
+     </p>
      <div id="iconsCalculadora">
       <img src={iconHtml} width="50" />
     <img src={iconCss}  width="50" />
@@ -368,11 +374,11 @@ return ( <div id="projetos" >
    <div id="conteudoPortifolio">
    <div id="portifolio">Portfólio</div>
     <div id="informaçoesPortifolio">
-    O Projeto Portfólio como todo foi ponderado facilitar as informações de apresentação na página Home
-interação facil ao usuario na página projetos com design Responsivo usando tecnologias FrontEnd 
-esse portfólio me trouce uma profundidade no frammework React, e muita prática com o Javascript 
+    O Projeto portfolio como todo foi ponderado em facilitar os dados e as informações de exibição.Na página Home
+a uma interação facil ao usuario  e na página projetos com design Responsivo. Foi utilizado tecnologias FrontEnd como o 
+ frammework React, e muita prática com o Javascript 
 utilizando principalmente funções da DOM trazendo um estilo agradavel com CSS,foi utilizado 
-Html, css, Javascript,React,Nele contem todas as minhas experiências com as tecnologias 
+Html, css, Javascript,React.Nesse projeto contém todas as minhas experiências com as tecnologias 
 aprendida e o nivel de aprendizado na página aprendizado,nele possui a página contato, com um formulario de 
 requisição por email.Clique no Iconi do GitHub para mais informações do código . 
 passe o mouse em cima da imagem para ampliar
@@ -402,9 +408,13 @@ Os Sistema ERPS são utilizados em grandes empresas para executar tarefas import
 que ha em uma organização, Esse Projeto SistemaERP tem por objetivo ser criado no Front-End com páginas interativas 
 E fáceis de utilidades com cores agradáveis e menus interativos.
  Nesse Projeto foi colocado em Prática ferramentas de aprendizado no Front-End como React, Javascript, HTML, CSS,BOOTSTRAP, WEBPACK. 
- Acesse o Primeiro Versionamento do Projeto. 
-<b><a href="https://sistemaerp-eliseu.netlify.app/#/"><i> Clique Aqui para Ver Projeto </i></a> </b>Clique no Iconi do GitHub para mais informações do código . 
-Passe o mouse em cima da imagem para ampliar.
+ Acesse o Primeiro Versionamento do Projeto.Passe o mouse em cima da imagem para ampliar.
+ Clique no Iconi do GitHub para mais informações do código . 
+
+<p>
+
+<b><a href="https://sistemaerp-eliseu.netlify.app/#/"><i> Clique Aqui para Ver Projeto </i></a></b>
+</p>
 
      <div id="iconsSistemaERP">
       <img src={iconHtml} width="50" />
@@ -426,16 +436,23 @@ Passe o mouse em cima da imagem para ampliar.
 
 </div>
 
-<div id="conteudoProjetoGetPet">
-<div id="nomeProjetoGetPet">Projeto Crud .NET CORE MVC</div>
-<div id="informaçoesProjetoGetPet">
+<div id="conteudoProjetoCrud">
+<div id="nomeProjetoCrud">Projeto Crud .NET CORE MVC</div>
+<div id="informaçoesProjetoCrud">
   Esse Projeto foi pensado em praticar o back-end com a Linguagem Scharp 
   com frammework .Net Core e padrão de arquitetura  MVC ,pensando como os 
   dados percorre no servidor, foi criado um banco de dados em sql server
   no qual os dados são servidos na pagina do usuario .
 
 <b> </b>Clique no Iconi do GitHub para mais informações do código . 
-<a href="https://www.youtube.com/watch?v=wQaJCcfxr2k">Acessar Video do Projeto</a>
+<p>
+<b>
+  <a href="https://www.youtube.com/watch?v=wQaJCcfxr2k">Acesse aqui o Video do Projeto</a>
+
+  </b>
+
+</p>
+  
 
      <div id="iconsGetPet">
       <img src={iconHtml} width="50" />

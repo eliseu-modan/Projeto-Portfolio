@@ -13,6 +13,16 @@ import IconNode from '../componentes/imgs/node.jpeg'
 import iconJava from '../componentes/imgs/java.jpeg'
 import iconMysql from '../componentes/imgs/mysql.jpeg'
 import iconUml from '../componentes/imgs/uml.jpeg'
+import imgScrum from '../componentes/imgs/Scrum-Process1.webp'
+import imgKambam from '../componentes/imgs/kanbann.png'
+import imgClean from '../componentes/imgs/clean.jpeg'
+import imgGit from '../componentes/imgs/GitHub.jpeg'
+import imgTdd from '../componentes/imgs/TDD_1.jpg'
+import iconScharp from '../componentes/imgs/c#.png'
+import netcoreIcon from '../componentes/imgs/netcore.png'
+import SqlServerIcon from '../componentes/imgs/SqlServer.png'
+import entityIcon from '../componentes/imgs/entity.png'
+import JenkinsIcon from '../componentes/imgs/jenkins.png'
 
 function Aprendizado(){
 
@@ -35,6 +45,14 @@ useLayoutEffect(()=>{
          const imgJava = document.querySelector('#iconJava')
          const imgMySQL=document.querySelector('#iconMysql')
          const imgUml=document.querySelector('#iconUml')
+         const iconScharp = document.querySelector('#iconScharp')
+         const iconNetcore = document.querySelector("#iconNetcore")
+         const iconsSql = document.querySelector('#sqlIcon')
+         const IconGit = document.querySelector('#IconGit')
+         const IconEntity = document.querySelector("#IconEntity")
+         const IconJenkins = document.querySelector('#jenkinsIcons')
+
+
 
 
 
@@ -200,7 +218,77 @@ imgUml.addEventListener('mouseout',function(){
 
 })
 
+iconScharp.addEventListener('mouseover',function(){
+   var conteudoScharp =document.getElementById('conteudoScharp').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML=conteudoScharp
+
+iconScharp.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
 })
+
+iconNetcore.addEventListener('mouseover',function(){
+   var conteudoNetCore =document.getElementById('conteudoNetCore').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML= conteudoNetCore
+
+iconNetcore.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
+})
+
+iconsSql.addEventListener('mouseover',function(){
+   var conteudoSql =document.getElementById('conteudoSql').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML= conteudoSql
+
+iconsSql.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
+})
+
+
+IconGit.addEventListener('mouseover',function(){
+   var conteudoGit =document.getElementById('conteudoGit').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML= conteudoGit
+
+IconGit.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
+})
+
+
+IconEntity.addEventListener('mouseover',function(){
+   var conteudoEntity =document.getElementById('conteudoEntity').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML= conteudoEntity
+
+IconEntity.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
+})
+
+IconJenkins.addEventListener('mouseover',function(){
+   var conteudoJenkins =document.getElementById('conteudoJenkins').innerHTML
+var conteudo = document.getElementById('conteudo')
+conteudo.innerHTML= conteudoJenkins
+
+IconJenkins.addEventListener('mouseout',function(){
+    conteudo.innerHTML ='Passe o Mouse no Icone Para mais Informações da Tecnologia '
+   })
+
+})
+
+})
+
+
 
 
 
@@ -209,6 +297,18 @@ return(
 <div id="aprendizado">
 
 <div id="icons">
+
+     <b>
+      <h2>
+      <div id="nomeTecnologia">Ferramentas e Linguagens</div>
+
+      </h2>
+      </b>
+
+
+
+
+
  <img id="iconReact" src={IconiReact} width='60' />
   <div id="conteudoReact" > O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU).
   Ela oferece uma resposta excelente para o usuário adicionar comandos usando um novo método de renderizar sites.Eu tive meu Primeiro 
@@ -340,10 +440,153 @@ na área de implementação de software.</div>
 
 
 
+  <img id="iconScharp" src={iconScharp} width='50' />
+  <div id="conteudoScharp">
+  C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .
+  NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, 
+  como Object Pascal e, principalmente, Java. Para colocar em pratica o paradigma orientado a objetos
+  eu decidi aprender Scharp, Essa linguagem me trouce um grande aprendizado no back-end, utilizando 
+  C#,.NetCore MVC  e entity Frammework.Foi realizado um projeto Crud Cadastrar ,editar , excluir Usuarios do sistema
+  utilizando banco de dados SqlServer.
+ </div>
+
+
+  <img id="iconNetcore" src={netcoreIcon} width='120' />
+    <div id="conteudoNetCore">
+    ASP.NET Core foi projetado para permitir que componentes de runtime, APIs, 
+    compiladores e linguagens evoluam rapidamente, enquanto ainda fornece uma plataforma estável 
+    e com suporte para manter os aplicativos em execução.
+</div>
 
 
 
- <div id='conteudo'> Passe o mouse no Icone para mais Informações da Tecnologia</div>
+  <img id="sqlIcon" src={SqlServerIcon}  />
+  <div id="conteudoSql">
+  O Microsoft SQL Server é um sistema gerenciador de Banco de dados relacional
+   desenvolvido pela Sybase em parceria com a Microsoft. O aprendizado do SqlServer
+   me trouce uma ampla visão de como os dados são percorridos no servidos até serem 
+   gravados ao banco de dados diante uma interface de ususario.
+</div>
+
+
+
+  <img id="IconGit" src={imgGit}  />
+   <div id="conteudoGit">
+   GitHub é uma plataforma de hospedagem de código-fonte e arquivos com 
+   controle de versão usando o Git. Ele permite que programadores,
+    utilitários ou qualquer usuário cadastrado na plataforma contribuam em 
+    projetos privados e/ou Open Source de qualquer lugar do mundo.
+  </div>
+
+
+
+  <img id="IconEntity" src={entityIcon} />
+  <div id="conteudoEntity">
+  O Entity Framework permite que os desenvolvedores trabalhem com dados na forma de
+   objetos e propriedades  específicos do domínio, como clientes e endereços de clientes, 
+   sem ter que se preocupar com as tabelas e colunas subjacentes do banco de dados onde
+    esses dados são armazenados.
+</div>
+
+
+
+  <img id="jenkinsIcons" src={JenkinsIcon} />
+  <div id="conteudoJenkins">
+   Jenkins é um servidor de automação de código aberto. Ele ajuda a automatizar 
+  as partes do desenvolvimento de software relacionadas à construção, teste e implantação,
+   facilitando a integração e a entrega contínuas. É um sistema baseado em servidor que é 
+   executado em contêineres de servlet, como o Apache Tomcat.
+ </div>
+
+
+             <div id='conteudo'> Passe o mouse no Icone para mais Informações da Tecnologia</div>
+ <b>
+
+
+      <h2>
+      <div id="nomeIntegracao">Integração Contínua e Boas Praticas de Desenvolvimento</div>
+      </h2>
+
+
+                  
+          <div id="ScrumNome"><h2>  Frammework Scrum  </h2> 
+           <img src={imgScrum}  />
+            <h3 id="descriçaoScrum">
+               O frammework Scrum eu tive um aprendizado na Faculdade, A scrum 
+               traz agilidade no desenvolvimento de um projeto, trazendo boas 
+               praticas que envolve a gestão de projetos, time de desenvolvimento 
+               e Stakeholders . 
+
+            </h3>
+           </div>
+
+
+
+
+          <h2>
+            <div id="kanbanNome"> Metodologia Kanban</div>
+             <img id="imgkanban" src={imgKambam}  />
+            </h2> 
+            <h3 id="descriçaoKanban">
+               Pensando em uma forma de controlar as tarefas em um desenvolvimento 
+               de software temos a metodologia kanban, uma abordagem agíl que 
+               controla o que precisa ser feito , o que esta fazendo e o que foi 
+               concluido.Eu tenho realizado esse controle diante dos meus Projetos 
+               de desenvolvimento .
+            </h3>
+   
+
+
+           <h3>
+              <div id="nomecleanCode">Clean Code (Código Limpo)</div>
+           </h3>  
+            <img  id="imgclean" src={imgClean}  />
+              <h3 id="descriçãoClean">
+               Durante o meu aprendizado em Front-End , necessitei de boas praticas
+               no desenvolvimento ,A cada mudança feita no código eu necessitava 
+               de um código legivel , refatorado para construir um software de qualidade
+               foi pensando nesse objetivo que eu adqueri mais conhecimentos sobre 
+               a qualidade de Software, Eu decidi estudar Clean Code (Código Limpo)
+               é uma abordagem de Robert Martin, que nos prepara para um Desenvolvimento
+               de software com facil manutenção, agilidade e rapidez no desenvolvimento.
+              </h3>
+
+
+              
+               <h3>
+               <div id="GitNome">Versionamento de Código com GitHub</div>
+               </h3>
+               <img id="gitPosition" src={imgGit}  />
+               <h3 id="descriçaoGit">
+                  Um versionamento de Código Git traz facilidade na Integração Contínua
+                  de desenvolvimento, para cada Sprint concluída no desenvolvimento
+                  é realizado o teste, caso esteja tudo em ordem com a funcionalidade 
+                   é feita a integração com o repositório git Após todos os deploys forem 
+                   realizados é desenvolvido a implantação do Sistema.Eu tenho praticado 
+                   o uso dessa ferramenta no qual eu armazeno em meu reposiório os projetos
+                   e as tecnologias aprendidas na minha carreira como DEV. 
+               </h3>
+
+
+           <h3>
+           <div id="TddNome"> Test Driven Development</div>
+         </h3>
+
+         <img id="imgTdd" src={imgTdd} />
+
+         <h3 id="descriçaoTdd">
+         TDD é uma sigla para Test Driven Development, ou Desenvolvimento Orientado a Testes. 
+          A ideia do TDD é que você trabalhe em ciclos. As boas praticas do TDD é trabalhar em cima 
+         da qualidade de software escrevendo códigos que sejam testados e refatorados
+          de forma contínua.
+         </h3>
+
+
+
+
+         
+     
+      </b>
 </div>
 </div>
 )}

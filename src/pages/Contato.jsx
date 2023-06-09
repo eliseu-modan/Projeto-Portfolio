@@ -12,7 +12,7 @@ export default props=>
     
   <div class="row">
     <div class="idcol">
-    <label id="digitarNome" for="exampleFormControlInput1" >Digite seu Nome :</label>
+    <label id="digitarNome" for="exampleFormControlInput1" >Digite seu Nome:</label>
       <input id="placeNome" type="text" class="form-control" name="name" placeholder="Nome"></input>
     </div>
    

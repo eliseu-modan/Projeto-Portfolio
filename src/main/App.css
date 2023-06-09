@@ -19,13 +19,14 @@
 .app{
 margin:0px;
 
-height: 700px;
+height: 600px;
 background-color: rgb(255, 255, 255);
 }
 @media(max-width:999px){
  .app{
     height: 2200px;
     width: 200px;
+    height: 400px;
     
  }   
 
