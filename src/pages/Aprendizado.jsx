@@ -446,7 +446,7 @@ na área de implementação de software.</div>
   NET. A sua sintaxe orientada a objetos foi baseada no C++ mas inclui muitas influências de outras linguagens de programação, 
   como Object Pascal e, principalmente, Java. Para colocar em pratica o paradigma orientado a objetos
   eu decidi aprender Scharp, Essa linguagem me trouce um grande aprendizado no back-end, utilizando 
-  C#,.NetCore MVC  e entity Frammework.Foi realizado um projeto Crud Cadastrar ,editar , excluir Usuarios do sistema
+  C#, .NetCore MVC  e entity Framework.Foi realizado um projeto Crud Cadastrar ,editar , excluir Usuarios do sistema
   utilizando banco de dados SqlServer.
  </div>
 
@@ -509,10 +509,10 @@ na área de implementação de software.</div>
 
 
                   
-          <div id="ScrumNome"><h2>  Frammework Scrum  </h2> 
+          <div id="ScrumNome"><h2>  Framework Scrum  </h2> 
            <img id="sizeScrumimg"src={imgScrum}  />
             <h3 id="descriçaoScrum">
-               O frammework Scrum eu tive um aprendizado na Faculdade, A scrum 
+               Eu tenho um aprendizado com framework Scrum pela Faculdade, A scrum 
                traz agilidade no desenvolvimento de um projeto, trazendo boas 
                praticas que envolve a gestão de projetos, time de desenvolvimento 
                e Stakeholders . 
@@ -529,7 +529,8 @@ na área de implementação de software.</div>
             </h2> 
             <h3 id="descriçaoKanban">
                Pensando em uma forma de controlar as tarefas em um desenvolvimento 
-               de software temos a metodologia kanban, uma abordagem agíl que 
+               de software temos a metodologia kanban que pode trabalhar junto ao Scrum,
+                uma abordagem agíl que 
                controla o que precisa ser feito , o que esta fazendo e o que foi 
                concluido.Eu tenho realizado esse controle diante dos meus Projetos 
                de desenvolvimento .
@@ -561,9 +562,9 @@ na área de implementação de software.</div>
                   Um versionamento de Código Git traz facilidade na Integração Contínua
                   de desenvolvimento, para cada Sprint concluída no desenvolvimento
                   é realizado o teste, caso esteja tudo em ordem com a funcionalidade 
-                   é feita a integração com o repositório git Após todos os deploys forem 
-                   realizados é desenvolvido a implantação do Sistema.Eu tenho praticado 
-                   o uso dessa ferramenta no qual eu armazeno em meu reposiório os projetos
+                   é feita a integração com o repositório git, Após todos os deploys forem 
+                   realizados, é desenvolvido a implantação do Sistema.Eu tenho praticado 
+                   o uso dessa ferramenta no qual eu armazeno em meu repositório os projetos
                    e as tecnologias aprendidas na minha carreira como DEV. 
                </h3>
 
