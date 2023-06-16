@@ -321,6 +321,73 @@ left: 90px;
 
         left: -100px;
         }
+        #conteudo{
+    position: absolute;
+    top: 340px;
+ }
+ #iconScharp{
+    position: absolute;
+    top: 260px;
+    left: 12px;
+ }
+ #jenkinsIcons{
+   position: absolute;
+   top: 260px;
+   left: 100px;
+ }
+ #nomeIntegracao{
+
+    top: 630px;
+    font-size: 20px;
+ }
+ #ScrumNome{
+     position: absolute;
+     top: 750px;
+     left: 10px;
+    font-size: 17px;
+ }
+ #sizeScrumimg{
+    width: 450px;
+ }
+ #kanbanNome{
+    left: 20px;
+ }
+ #nomecleanCode{
+    left: 20px;
+ }
+ #imgclean{
+    left: 20px;
+ }
+ #descriçãoClean{
+    width: 230px;
+
+ }
+ #GitNome{
+    top: 2480px;
+    left: 20px;
+ }
+ #gitPosition{
+top: 2500px;
+width: 500px;
+ }
+ #descriçaoGit{
+    top: 2800px;
+    left: 20px;
+    width: 530px;
+ }
+ #TddNome{
+    top: 3200px;
+    left: 20px;
+ }
+ #imgTdd{
+    top: 3500px;
+    width: 500px;
+    left: 20px;
+ }
+ #descriçaoTdd{
+    width: 400px;
+    left: 20px;
+ }
     }
     
 
@@ -368,7 +435,7 @@ left: 90px;
             #nomecleanCode
         {
             position: absolute;
-            top: 1250px;
+            top: 1300px;
             left: 50px;
             width: 300px;
             font-size: 20px;
@@ -377,9 +444,9 @@ left: 90px;
         }
         #imgclean{
             position: absolute;
-            top: 1300px;
+            top: 1360px;
             left: 50px;
-            width: 250px;
+            width: 220px;
         }
         #descriçãoClean{
             top:1700px ;
