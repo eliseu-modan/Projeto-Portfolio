@@ -1,21 +1,23 @@
 .apresentação{
-    position: absolute;
-    padding: 270px;
-    padding-right: 500px;
+    position:absolute;
+    padding: 85px;
+    padding-right: 600px;
     padding-top: 230px;
-    left: 600px;
-    top: 160px;
+    left: 595px;
+    top: 150px;
     background-color: #ffffff;
-    border: solid 3px rgb(0, 0, 0);
+    border: solid 2px rgb(0, 0, 0);
     border-radius: 30px;
+    height: 90px;
+
 }
 
-#apresentação__nomeSlide{
+#apresentação__nomeSlide {
     background-color : #ffffff;
     position: absolute;
-    top: 45%;
-    left: 5px;
-    font-size:100px;
+    top: 50%;
+    left: 30px;
+    font-size:90px;
     font-family: 'Montserrat','sans-serif';
     color: #333333;
     }
@@ -23,8 +25,8 @@
     .nomeApres{
         border-right: 15px solid rgb(255, 255, 255);
         position: absolute;
-    left: 80px;
-        top: 100px;
+    left:50px;
+        top: 30px;
         white-space: nowrap;
         overflow: hidden;
         font-size: 30px;
